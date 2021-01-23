@@ -1,0 +1,124 @@
+html,
+body {
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.intro {
+	top: 0;
+	background: #fec5bb;
+	min-height: 55vh;
+	padding-top: 45vh;
+}
+
+.intro p {
+	color: black;
+	font-size: 20px;
+}
+
+nav ul {
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	background-color: #e63946;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 55px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: black;
+}
+* .work {
+	background-color: #f8edeb;
+	padding-top: 60px;
+}
+
+.work .work-header {
+	margin-top: 50px;
+	color: black;
+	font-weight: normal;
+}
+
+.project {
+	text-decoration: none;
+	color: #008080;
+	display: inline-block;
+	overflow: hidden;
+	height: 220px;
+	width: 280px;
+	margin: 40px 100px;
+}
+
+.project-pic {
+	width: 100%;
+	height: 180px;
+}
+
+.project-title {
+	font-weight: bold;
+}
+
+.contact {
+	/*   height:800px; */
+	/*   min-height:800px; */
+	background: #ffd7ba;
+	padding-bottom: 160px;
+}
+
+.header {
+	padding: 160px 0 110px; /*the 3 values indicates padding to the top, right and bottom of the element*/
+}
+
+.contact-details {
+	display: inline-block;
+	font-weight: bold;
+	margin: 0 35px 45px 35px;
+	list-style-type: none; /*"list-style-type"specifies the type of list-item marker in a list(circle, square, disc, etc)
+                              none indicates no marker is shown*/
+	border: 2px solid #fec5bb;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	line-height: 100px; /* line-height property sets the amount of space used for lines, such as in text */
+	background: #e0ebe8;
+	color: #cf946d;
+	text-decoration: none;
+}
+
+.contact-details:hover {
+	/* The :hover selector is used to select elements when you mouse over them. */
+	background: #e4f1fe;
+	color: #fec5bb;
+}
+
+footer {
+	padding: 20px;
+	background: #22313f;
+	color: white;
+	line-height: 40px;
+}
+@media only screen and (max-width: 367px) {
+	.contact-details {
+		border: 2px solid #90c695;
+		border-radius: 0;
+		width: 90px;
+		height: 20px;
+		padding: 10px;
+		line-height: normal; /*It defines a normal line height. It is the default value of this property */
+	}
+}
